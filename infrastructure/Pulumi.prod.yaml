@@ -1,6 +1,5 @@
 config:
   azure-native:location: westus3
-  azure-native:location: westus3
   cst8918-a03-infra:appPath: ../
   cst8918-a03-infra:containerPort: '80'
   cst8918-a03-infra:publicPort: '80'
