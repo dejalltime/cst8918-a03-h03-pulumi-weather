@@ -1,7 +1,7 @@
 import { redis } from '../data-access/redis-connection'
 
 const API_KEY = process.env.WEATHER_API_KEY
-const BASE_URL = 'https://api.openweathermap.org/data/3.0/onecall'
+const BASE_URL = 'https://api.openweathermap.org/data/2.5/weather'
 const TEN_MINUTES = 1000 * 60 * 10 // in milliseconds
 
 interface FetchWeatherDataParams {
