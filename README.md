@@ -227,7 +227,7 @@ Import the `@pulumi/docker-build` module at the top of the index.ts file and the
 
 ```ts
 // Other imports at the top of the module
-import * as docker from '@pulumi/docker-build'
+import * as dockerBuild from '@pulumi/docker-build'
 
 // ... rest of the code
 
